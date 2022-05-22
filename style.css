@@ -3,14 +3,14 @@
     padding: 0;
 }
 header {
-    height: 10vh;
+    height: 8vh;
     
-    background-color: palevioletred;
+    background-color: #3a86ff;
     padding: 10px;
     
 }
 nav{
-    height: 10vh;
+    height: 8vh;
     
 }
 a{
@@ -25,12 +25,44 @@ a{
     
 }
 main{
-    height: 80vh;
+    height: 84vh;
+    background-image: url("images/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    text-align: center;
+    
+    
+}
+.main{
+    text-align: center;
+    padding-top: 36vh;
+    line-height: 30px;
+}
+.main h2 {
+    text-transform: capitalize;
+    color: azure;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.main button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: #2a9d8f;
+    border: 1px solid blue;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.main button:hover{
+    background-color: #3a86ff;
+    color: aliceblue;
 }
 
 footer{
     height: 5vh;
-    background-color: blueviolet;
+    background-color: #168aad;
 }
 footer>p{
     color: white;
