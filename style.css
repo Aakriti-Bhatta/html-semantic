@@ -4,9 +4,10 @@
 }
 header {
     height: 10vh;
-    width: 100%;
+    
     background-color: palevioletred;
     padding: 10px;
+    
 }
 nav{
     height: 10vh;
@@ -17,12 +18,23 @@ a{
     color:white;
     display: block;
     float: left;
-    padding: 25px 150px 10px 0px;
+    padding-right: 200px;
+    padding-top: 20px;
     font-size: 20px;
     
     
+}
+main{
+    height: 80vh;
+}
 
+footer{
+    height: 5vh;
+    background-color: blueviolet;
 }
-ul{
-    display: none 
+footer>p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
 }
+
