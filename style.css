@@ -9,11 +9,12 @@ header {
     padding: 10px;
     
 }
+
 nav{
     height: 8vh;
     
 }
-a{
+ nav .head a{
     text-decoration: none;
     color:white;
     display: block;
@@ -22,6 +23,20 @@ a{
     padding-top: 20px;
     font-size: 20px;
     
+    
+}
+.project ul{
+    display: none;
+}
+.project:hover ul{
+    display: block;
+}
+ .project  li  {
+    height: 40px;
+    width: 100px;
+    list-style-type: none;
+    padding: 10px;
+    color: white;
     
 }
 main{
