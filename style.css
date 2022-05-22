@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: palevioletred;
+    padding: 10px;
+}
+nav{
+    height: 10vh;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    float: left;
+    padding: 25px 150px 10px 0px;
+    font-size: 20px;
+    
+    
+
+}
+ul{
+    display: none 
+}
